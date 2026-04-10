@@ -1,0 +1,8 @@
+[package]
+name = "cuda-schedule"
+version = "0.1.0"
+edition = "2021"
+description = "Scheduling — time-based task management, priority queues, recurring events, and deadline tracking for agents"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
